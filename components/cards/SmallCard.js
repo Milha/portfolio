@@ -7,11 +7,26 @@ export default function smallCard({ data }) {
 
   return (
     <div className={classes.cont}>
-      <div className={classes.imageCont}></div>
-      <Image src={data.image} alt={data.alt} width={400} height={300} />
+      <div className={classes.imageCont}>
+        <Image
+          className={classes.image}
+          src={data.image}
+          alt={data.alt}
+          width={400}
+          height={300}
+        />
+      </div>
+
       <div className={classes.textItems}>
         <h2>{data.title}</h2>
-        <p>{}</p>
+
+        <div className={classes.tools}>
+          {data.tools.map((tool, i) => (
+            <span className={classes.toolSpan} key={i}>
+              <span>{tool}</span>
+            </span>
+          ))}
+        </div>
       </div>
     </div>
   );

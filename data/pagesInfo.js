@@ -6,7 +6,7 @@ export const pagesInfo = [
     httpaddress: "",
     image: "/images/vlasnik-front.jpg",
     alt: "Front page of site Vlasnik nekretnine",
-    tools: ["NextJS", "React", "HTML", "CSS"],
+    tools: ["NextJS", "React", "HTML", "CSS", "Schema.org"],
   },
   {
     id: 1,
@@ -15,6 +15,6 @@ export const pagesInfo = [
     httpaddress: "",
     image: "/images/hrizantema-front.jpg",
     alt: "Front page of site cvecara Hrizantema",
-    tools: ["HTML", "CSS"],
+    tools: ["HTML", "CSS", "Schema.org"],
   },
 ];

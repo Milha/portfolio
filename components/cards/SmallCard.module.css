@@ -8,22 +8,48 @@
   margin: 1rem 0;
   box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
+  transition: 1s ease-in-out;
+  overflow: hidden;
 }
 
-.cont h2 {
+.cont:hover {
+  transform: scale(1.01);
+}
+
+.imageCont {
+  /* padding: 1rem; */
+  margin: 0;
+  /* background-color: aqua; */
+}
+
+.image {
+  margin: 0 3rem;
+  box-shadow: 0 2px 2px 3px rgba(0, 0, 0, 0.1);
+}
+
+.textItems h2 {
   text-align: left;
   margin-top: 0.5rem;
 }
 
-.imageCont {
-  background-color: aqua;
-  margin: 0;
-}
-
 .textItems {
   display: flex;
+  flex-direction: column;
   width: 100%;
   margin-left: 1rem;
+}
+
+.toools {
+  display: flex;
+  flex-direction: row;
+}
+
+.toolSpan {
+  margin-right: 0.5rem;
+}
+
+.toolSpan:nth-child(0) {
+  margin: 0m;
 }
 
 @media (min-width: 45em) {
