@@ -5,3 +5,18 @@
 .container h1 {
   text-align: center;
 }
+
+@media (min-width: 45em) {
+  /* .container {
+    padding: 0 10vw;
+  } */
+}
+
+@media (min-width: 75rem) {
+  .container {
+    padding: 0 23vw;
+  }
+}
+
+@media (min-width: 90rem) {
+}
