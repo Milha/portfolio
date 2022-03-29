@@ -1,7 +1,13 @@
-import '../styles/globals.css'
+import HeroImage from "../components/layout/HeroImage";
+import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+  return (
+    <>
+      <HeroImage />
+      <Component {...pageProps} />
+    </>
+  );
 }
 
-export default MyApp
+export default MyApp;

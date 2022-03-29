@@ -4,6 +4,7 @@ import classes from "../styles/Home.module.css";
 import SmallCard from "../components/cards/SmallCard";
 
 import { pagesInfo } from "../data/pagesInfo";
+// import HeroImage from "../components/layout/HeroImage";
 
 export default function Home() {
   // console.log(pagesInfo);
@@ -14,6 +15,7 @@ export default function Home() {
         <meta name="description" content="Portfolio of my work" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      {/* <HeroImage /> */}
       <h1>Milhas Code</h1>
       {pagesInfo.map((page) => (
         <section key={page.id}>
