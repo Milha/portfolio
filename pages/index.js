@@ -12,12 +12,12 @@ export default function Home() {
   return (
     <div className={classes.container}>
       <Head>
-        <title>Milhas portfolio</title>
+        <title>Milhas Code</title>
         <meta name="description" content="Portfolio of my work" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <HeroImage /> */}
-      
+
       {pagesInfo.map((page) => (
         <section key={page.id}>
           <SmallCard data={page} />
