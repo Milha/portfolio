@@ -19,6 +19,21 @@ export default function smallCard({ data }) {
 
       <div className={classes.textItems}>
         <h2>{data.title}</h2>
+        <div className={classes.iconsCont}>
+        {data.icons.map((icon, i) => (
+            <span className={classes.toolSpan} key={i}>
+              <span>{icon}</span>
+            </span>
+          ))}
+        </div>
+
+        {/* <div className={classes.tools}>
+          {data.icons.map((icon, i) => (
+            <span className={classes.toolSpan} key={i}>
+              <span>{icon}</span>
+            </span>
+          ))}
+        </div> */}
 
         <div className={classes.tools}>
           {data.tools.map((tool, i) => (

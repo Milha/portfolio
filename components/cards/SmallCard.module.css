@@ -39,6 +39,11 @@
   margin-left: 1rem;
 }
 
+.iconsCont {
+  display: flex;
+  flex-direction: row;
+}
+
 .toools {
   display: flex;
   flex-direction: row;
