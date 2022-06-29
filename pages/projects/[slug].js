@@ -22,7 +22,7 @@ function projects({
 }) {
   return (
     <div className="bg-red mx-6 lg:mx-[20%] 2xl:mx-96">
-      <div className="opacity-0 mb-20">'</div>
+      <div className="opacity-0 mb-20">&apos;</div>
       <h2 className="my-10 text-center">{title}</h2>
       <div className="flex flex-col items-center justify-center relative z-10 text-yellow-200 w-full h-[15rem] sm:h-[25rem] md:h-[30rem] lg:h-[25rem] xl:h-[35rem]">
         <Image
