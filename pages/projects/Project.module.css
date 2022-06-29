@@ -1,0 +1,17 @@
+.content h2,
+.content h3,
+.content h4 {
+  /* color: red; */
+  line-height: 1.2;
+  margin-bottom: 1.75rem;
+}
+
+.content h3 {
+  font-size: 1.5rem;
+}
+
+.content p {
+  /* color: red; */
+  line-height: 1.2;
+  margin-bottom: 1.75rem;
+}

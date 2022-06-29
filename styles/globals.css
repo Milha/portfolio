@@ -1,17 +1,103 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: "Montserrat", sans-serif;
+html {
+  scroll-behavior: smooth;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+@layer base {
+  body {
+    @apply bg-[#ecf0f3] text-[#1f2937] tracking-wide;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    @apply font-bold;
+  }
+
+  h1 {
+    @apply text-4xl sm:text-5xl md:text-6xl;
+  }
+
+  h2 {
+    @apply text-3xl sm:text-4xl;
+  }
+
+  li {
+    @apply cursor-pointer;
+  }
+
+  button {
+    @apply shadow-xl shadow-gray-400 rounded-xl  uppercase bg-gradient-to-r from-[#5651e5] to-[#709dff] text-white;
+  }
 }
 
-* {
-  box-sizing: border-box;
-}
+/* // MAIN - Black Bean
+$color-main-brown-100: #d86131;
+$color-main-brown-200: #ab4821;
+$color-main-brown-300: #893a1a;
+$color-main-brown-400: #672b14;
+
+$color-main-brown: #401b0c;
+
+$color-main-brown-600: #33160a;
+$color-main-brown-700: #230e06;
+$color-main-brown-800: #220e07;
+$color-main-brown-900: #110703;
+
+// GRAY
+$color-gray-100: #fcfcfc;
+$color-gray-200: #e0e0e0;
+$color-gray-300: #cccccc;
+$color-gray-400: #b8b8b8;
+
+$color-gray: #a3a3a3;
+
+$color-gray-600: #8f8f8f;
+$color-gray-700: #707070;
+$color-gray-800: #525252;
+$color-gray-900: #333333;
+
+// ALERT - Medium Candy Apple Red
+$color-alert-100: #f6a2ad;
+$color-alert-200: #f27d8d;
+$color-alert-300: #ee586c;
+$color-alert-400: #eb334b;
+
+$color-alert: #db162f;
+
+$color-alert-600: #ba1229;
+$color-alert-700: #950f21;
+$color-alert-800: #6f0b18;
+$color-alert-900: #4a0710;
+
+// GREEN - Spanish Green
+$color-green-100: #a4e7c2;
+$color-green-200: #6ed89e;
+$color-green-300: #4acf86;
+$color-green-400: #31b96e;
+
+$color-green: #28965a;
+
+$color-green-600: #22804c;
+$color-green-700: #1c6a3f;
+$color-green-800: #114026;
+$color-green-900: #0b2b19;
+
+// LINK BLUE - Blue NCS
+$color-link-blue-100: #bddfee;
+$color-link-blue-200: #8cc7e0;
+$color-link-blue-300: #5bafd3;
+$color-link-blue-400: #3a9fcb;
+
+$color-link-blue: #2e86ab;
+
+$color-link-blue-600: #277494;
+$color-link-blue-700: #21607c;
+$color-link-blue-800: #174457;
+$color-link-blue-900: #0d2731; */
