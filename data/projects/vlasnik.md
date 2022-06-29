@@ -3,8 +3,8 @@ id: 2,
 title: "Cvećara Hrizantema"
 date: "2022-04-05"
 excerpt: "Da li je COVID korona virus opasan i opasniji za trudnice. Kako se ponasati i da li se vakcinisati za vreme korona virusa u trudnoci"
-project_image: "/images/projects/hrizantema-project-1400.jpg"
-project_imageWebP: "/images/projects/hrizantema-project-1400.webp"
+project_image: "/images/projects/vlasnik-project.jpg"
+project_imageWebP: "/images/projects/vlasnik-project.webp"
 alt: "zena u trudnoci"
 httpaddress: "https://zdravaonline.com/blog/trudnoca-i-covid"
 ---
