@@ -35,8 +35,21 @@ function Navbar() {
             <li className="ml-10 text-sm uppercase hover:border-b">Contact</li>
           </Link>
         </ul>
-        <div onClick={handleNav} className="md:hidden">
-          <AiOutlineMenu size={25} />
+        <div
+          style={{
+            // background: "red",
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+          }}
+          role="button"
+          aria-roledescription="open menu button"
+        >
+          <div onClick={handleNav} className="md:hidden">
+            <AiOutlineMenu size={25} />
+          </div>
+          <span style={{ fontSize: "0.5rem" }}>Menu</span>
         </div>
       </div>
       <div
@@ -64,10 +77,23 @@ function Navbar() {
                 </a>
               </Link>
               <div
-                onClick={handleNav}
-                className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                style={{
+                  // background: "red",
+                  display: "flex",
+                  flexDirection: "column",
+                  justifyContent: "center",
+                  alignItems: "center",
+                }}
               >
-                <AiOutlineClose />
+                <div
+                  onClick={handleNav}
+                  className="rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer"
+                  role="button"
+                  aria-roledescription="close menu button"
+                >
+                  <AiOutlineClose />
+                </div>
+                <span style={{ fontSize: "0.5rem" }}>Close</span>
               </div>
             </div>
             <div className="border-b border-gray-300 my-4">
