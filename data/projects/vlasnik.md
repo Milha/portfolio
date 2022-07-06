@@ -31,13 +31,9 @@ Images are resized and served using the best, up-to-date formats like WebP.
 
 For those looking for better SEO, titles and keywords for each page are easy to create.
 
-### Sass
+### Firebase
 
-1 It provides nesting so you can use nested syntax and useful functions like color manipulation, math functions, and other values.
-
-2 Sass facilitates you to write clean, easy and less CSS in a programming construct.
-
-3 It contains fewer codes so you can write CSS quicker.
+The Firebase Realtime Database lets me build rich, collaborative applications by allowing secure access to the database directly from client-side code.
 
 <!-- ![The San Juan Mountains are beautiful!](/images/posts/trudnoca-i-covid.jpg "San Juan Mountains") -->
 

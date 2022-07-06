@@ -49,7 +49,9 @@ function Navbar() {
           <div onClick={handleNav} className="md:hidden">
             <AiOutlineMenu size={25} />
           </div>
-          <span style={{ fontSize: "0.5rem" }}>Menu</span>
+          <span className="md:hidden" style={{ fontSize: "0.5rem" }}>
+            Menu test
+          </span>
         </div>
       </div>
       <div
