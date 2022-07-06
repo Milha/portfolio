@@ -1,9 +1,9 @@
 // import Image from "next/image";
 // import Link from "next/link";
-import propertyImg from "../../public/images/projects/hrizantema-project-1400.jpg";
-import cryptoImg from "../../public/images/projects/vlasnik-project.jpg";
-import netflixImg from "../../public/images/projects/zdrava-project.jpg";
-import twitchImg from "../../public/images/projects/zdrava-project.jpg";
+import hrizantemaImg from "../../public/images/projects/hrizantema-project-1400.jpg";
+import vlasnikImg from "../../public/images/projects/vlasnik-project.jpg";
+import zdravaImg from "../../public/images/projects/zdrava-project.jpg";
+// import twitchImg from "../../public/images/projects/zdrava-project.jpg";
 import ProjectItem from "../cards/ProjectItem";
 
 function Projects() {
@@ -17,17 +17,17 @@ function Projects() {
         <div className="grid md:grid-cols-2 gap-8 ">
           <ProjectItem
             title="Hrizantema Flower shop"
-            backgroundImg={propertyImg}
+            backgroundImg={hrizantemaImg}
             projectUrl="/projects/hrizantema"
           />
           <ProjectItem
             title="Vlasnik Real Estate"
-            backgroundImg={cryptoImg}
+            backgroundImg={vlasnikImg}
             projectUrl="/projects/vlasnik"
           />
           <ProjectItem
             title="Zdrava Blog"
-            backgroundImg={netflixImg}
+            backgroundImg={zdravaImg}
             projectUrl="/projects/zdrava"
           />
           {/* <ProjectItem
